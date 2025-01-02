@@ -1,0 +1,60 @@
+17:16:49.261 [main] INFO  tests.HomeJobSearchTest - **** Starting jobSearchTest  ****
+17:16:49.266 [main] DEBUG tests.HomeJobSearchTest - capturing application debug logs....
+17:18:21.359 [main] INFO  tests.HomeJobSearchTest - **** Starting jobSearchTest  ****
+17:18:21.363 [main] DEBUG tests.HomeJobSearchTest - capturing application debug logs....
+17:18:23.754 [main] INFO  tests.HomeJobSearchTest - clicked on Login link on the home page..
+17:18:23.755 [main] INFO  tests.HomeJobSearchTest - **** Finished doLoginTest  ****
+17:52:42.346 [main] INFO  tests.HomeJobSearchTest - **** Starting jobSearchTest  ****
+17:52:42.352 [main] DEBUG tests.HomeJobSearchTest - capturing application debug logs....
+17:53:00.584 [main] INFO  tests.HomeJobSearchTest - clicked on Login link on the home page..
+17:53:00.585 [main] INFO  tests.HomeJobSearchTest - **** Finished doLoginTest  ****
+18:52:02.749 [main] INFO  tests.EndToEndTest - **** Starting doLoginTest  ****
+18:52:02.810 [main] DEBUG tests.EndToEndTest - capturing application debug logs....
+18:53:50.368 [main] INFO  tests.HomeJobSearchTest - **** Starting jobSearchTest  ****
+18:53:50.373 [main] DEBUG tests.HomeJobSearchTest - capturing application debug logs....
+18:54:08.854 [main] INFO  tests.HomeJobSearchTest - clicked on Login link on the home page..
+18:54:08.854 [main] INFO  tests.HomeJobSearchTest - **** Finished doLoginTest  ****
+18:55:25.620 [main] INFO  tests.EndToEndTest - **** Starting doLoginTest  ****
+18:55:25.625 [main] DEBUG tests.EndToEndTest - capturing application debug logs....
+18:55:50.027 [main] INFO  tests.EndToEndTest - clicked on Login link on the home page..
+18:55:50.027 [main] INFO  tests.EndToEndTest - **** Finished doLoginTest  ****
+18:55:59.931 [main] INFO  tests.HomeJobSearchTest - **** Starting jobSearchTest  ****
+18:55:59.931 [main] DEBUG tests.HomeJobSearchTest - capturing application debug logs....
+18:56:18.055 [main] INFO  tests.HomeJobSearchTest - clicked on Login link on the home page..
+18:56:18.055 [main] INFO  tests.HomeJobSearchTest - **** Finished doLoginTest  ****
+18:58:30.201 [main] INFO  tests.EndToEndTest - **** Starting doLoginTest  ****
+18:58:30.205 [main] DEBUG tests.EndToEndTest - capturing application debug logs....
+18:58:59.719 [main] INFO  tests.EndToEndTest - clicked on Login link on the home page..
+18:58:59.720 [main] INFO  tests.EndToEndTest - **** Finished doLoginTest  ****
+18:59:12.549 [main] INFO  tests.HomeJobSearchTest - **** Starting jobSearchTest  ****
+18:59:12.549 [main] DEBUG tests.HomeJobSearchTest - capturing application debug logs....
+18:59:30.695 [main] INFO  tests.HomeJobSearchTest - clicked on Login link on the home page..
+18:59:30.695 [main] INFO  tests.HomeJobSearchTest - **** Finished doLoginTest  ****
+10:08:30.428 [main] INFO  tests.EndToEndTest - **** Starting doLoginTest  ****
+10:08:30.482 [main] DEBUG tests.EndToEndTest - capturing application debug logs....
+10:08:58.691 [main] INFO  tests.EndToEndTest - clicked on Login link on the home page..
+10:08:58.691 [main] INFO  tests.EndToEndTest - **** Finished doLoginTest  ****
+11:43:42.639 [main] INFO  tests.JobPosting - **** Starting doLoginTest  ****
+11:43:42.650 [main] DEBUG tests.JobPosting - capturing application debug logs....
+11:43:42.652 [main] INFO  tests.JobPosting - **** Starting doLoginTest  ****
+11:43:42.652 [main] DEBUG tests.JobPosting - capturing application debug logs....
+11:44:13.843 [main] INFO  tests.JobPosting - clicked on Login link on the home page..
+11:44:13.855 [main] INFO  tests.JobPosting - **** Finished doLoginTest  ****
+11:50:16.233 [main] INFO  tests.JobPosting - **** Starting doLoginTest  ****
+11:50:16.237 [main] DEBUG tests.JobPosting - capturing application debug logs....
+11:50:16.238 [main] INFO  tests.JobPosting - **** Starting doLoginTest  ****
+11:50:16.239 [main] DEBUG tests.JobPosting - capturing application debug logs....
+11:50:46.708 [main] INFO  tests.JobPosting - clicked on Login link on the home page..
+11:50:46.708 [main] INFO  tests.JobPosting - **** Finished doLoginTest  ****
+11:54:52.377 [main] INFO  tests.JobPosting - **** Starting doLoginTest  ****
+11:54:52.381 [main] DEBUG tests.JobPosting - capturing application debug logs....
+11:54:52.383 [main] INFO  tests.JobPosting - **** Starting doLoginTest  ****
+11:54:52.383 [main] DEBUG tests.JobPosting - capturing application debug logs....
+11:55:29.000 [main] INFO  tests.JobPosting - clicked on Login link on the home page..
+11:55:29.001 [main] INFO  tests.JobPosting - **** Finished doLoginTest  ****
+12:14:43.448 [main] INFO  tests.JobPosting - **** Starting doLoginTest  ****
+12:14:43.467 [main] DEBUG tests.JobPosting - capturing application debug logs....
+12:14:43.468 [main] INFO  tests.JobPosting - **** Starting doLoginTest  ****
+12:14:43.469 [main] DEBUG tests.JobPosting - capturing application debug logs....
+12:15:18.523 [main] INFO  tests.JobPosting - clicked on Login link on the home page..
+12:15:18.523 [main] INFO  tests.JobPosting - **** Finished doLoginTest  ****

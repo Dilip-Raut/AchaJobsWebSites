@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="4" failed="1" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-02T16:06:48 IST" name="Suite" finished-at="2025-01-02T16:12:40 IST" duration-ms="351595">
+    <groups>
+    </groups>
+    <test started-at="2025-01-02T16:06:48 IST" name="Test" finished-at="2025-01-02T16:12:40 IST" duration-ms="351595">
+      <class name="tests.JobPosting">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.JobPosting@18078bef]" started-at="2025-01-02T16:06:49 IST" name="setup" finished-at="2025-01-02T16:07:04 IST" duration-ms="15685" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="adminCreationAndAppraoveTest()[pri:0, instance:tests.JobPosting@18078bef]" started-at="2025-01-02T16:07:04 IST" name="adminCreationAndAppraoveTest" finished-at="2025-01-02T16:08:43 IST" duration-ms="98545" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button _ngcontent-ng-c870121049="" class="btn btn-success btn-sm" disabled="">...</button> is not clickable at point (1085, 542). Other element would receive the click: <td _ngcontent-ng-c870121049="">...</td>
+  (Session info: chrome=131.0.6778.205)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6ad56b7c1cce9382f5cde7950450b9c9, clickElement {id=f.D757873DE5BC68CD501CCD3EA04CC409.d.AD6A799D86FAA1406310CC55793680A8.e.105}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\Shree\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55517}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55517/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6ad56b7c1cce9382f5cde7950450b9c9)] -> xpath: (//table//tbody//tr)[last()]/td[5]/button[1]]
+Session ID: 6ad56b7c1cce9382f5cde7950450b9c9]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-ng-c870121049="" class="btn btn-success btn-sm" disabled="">...</button> is not clickable at point (1085, 542). Other element would receive the click: <td _ngcontent-ng-c870121049="">...</td>
+  (Session info: chrome=131.0.6778.205)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6ad56b7c1cce9382f5cde7950450b9c9, clickElement {id=f.D757873DE5BC68CD501CCD3EA04CC409.d.AD6A799D86FAA1406310CC55793680A8.e.105}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\Shree\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55517}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55517/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6ad56b7c1cce9382f5cde7950450b9c9)] -> xpath: (//table//tbody//tr)[last()]/td[5]/button[1]]
+Session ID: 6ad56b7c1cce9382f5cde7950450b9c9
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at tests.JobPosting.adminCreationAndAppraoveTest(JobPosting.java:62)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminCreationAndAppraoveTest -->
+        <test-method signature="adminJobPostingData()[pri:0, instance:tests.JobPosting@18078bef]" started-at="2025-01-02T16:08:43 IST" name="adminJobPostingData" finished-at="2025-01-02T16:08:43 IST" depends-on-methods="tests.JobPosting.adminCreationAndAppraoveTest" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method JobPosting.adminJobPostingData()[pri:0, instance:tests.JobPosting@18078bef] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method JobPosting.adminJobPostingData()[pri:0, instance:tests.JobPosting@18078bef] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminJobPostingData -->
+        <test-method signature="adminJobsAppraovalAndPostTest()[pri:0, instance:tests.JobPosting@18078bef]" started-at="2025-01-02T16:08:43 IST" name="adminJobsAppraovalAndPostTest" finished-at="2025-01-02T16:08:43 IST" depends-on-methods="tests.JobPosting.adminJobPostingData" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method JobPosting.adminJobsAppraovalAndPostTest()[pri:0, instance:tests.JobPosting@18078bef] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method JobPosting.adminJobsAppraovalAndPostTest()[pri:0, instance:tests.JobPosting@18078bef] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminJobsAppraovalAndPostTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.JobPosting@18078bef]" started-at="2025-01-02T16:08:43 IST" name="tearDown" finished-at="2025-01-02T16:08:44 IST" duration-ms="428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.JobPosting -->
+      <class name="tests.HomeJobSearchAndApplyTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.HomeJobSearchAndApplyTest@6302bbb1]" started-at="2025-01-02T16:08:44 IST" name="setup" finished-at="2025-01-02T16:08:59 IST" duration-ms="15558" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="jobSearchTest()[pri:1, instance:tests.HomeJobSearchAndApplyTest@6302bbb1]" started-at="2025-01-02T16:08:59 IST" name="jobSearchTest" finished-at="2025-01-02T16:10:06 IST" duration-ms="66796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jobSearchTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomeJobSearchAndApplyTest@6302bbb1]" started-at="2025-01-02T16:10:06 IST" name="tearDown" finished-at="2025-01-02T16:10:06 IST" duration-ms="375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.HomeJobSearchAndApplyTest -->
+      <class name="tests.InternshipPosting">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.InternshipPosting@31304f14]" started-at="2025-01-02T16:10:06 IST" name="setup" finished-at="2025-01-02T16:10:25 IST" duration-ms="18658" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="adminCreationAndAppraoveTest()[pri:0, instance:tests.InternshipPosting@31304f14]" started-at="2025-01-02T16:10:25 IST" name="adminCreationAndAppraoveTest" finished-at="2025-01-02T16:12:01 IST" duration-ms="96167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminCreationAndAppraoveTest -->
+        <test-method signature="adminInternshipPostingData()[pri:0, instance:tests.InternshipPosting@31304f14]" started-at="2025-01-02T16:12:01 IST" name="adminInternshipPostingData" finished-at="2025-01-02T16:12:40 IST" depends-on-methods="tests.InternshipPosting.adminCreationAndAppraoveTest" duration-ms="38328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminInternshipPostingData -->
+        <test-method signature="adminInternshipAppraovalAndPostTest()[pri:0, instance:tests.InternshipPosting@31304f14]" started-at="2025-01-02T16:12:40 IST" name="adminInternshipAppraovalAndPostTest" finished-at="2025-01-02T16:12:40 IST" depends-on-methods="tests.InternshipPosting.adminInternshipPostingData" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminInternshipAppraovalAndPostTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.InternshipPosting@31304f14]" started-at="2025-01-02T16:12:40 IST" name="tearDown" finished-at="2025-01-02T16:12:40 IST" duration-ms="357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.InternshipPosting -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
