@@ -55,7 +55,7 @@ public class InternshipPosting extends BaseClass {
 			String name=driver.findElement(By.xpath("(//table//tbody//tr)[last()]/td[2]")).getText();
 			System.out.println(name);
 			if(name.equals("DineshKumar")) {
-				System.out.println("Reading Name");
+				System.out.println("Reading Name and Validating");
 				Thread.sleep(4000);
 				String value = driver.findElement(By.xpath("(//table//tbody//tr)[last()]/td[4]")).getText();
 				System.out.println("Admin status is - "+value);

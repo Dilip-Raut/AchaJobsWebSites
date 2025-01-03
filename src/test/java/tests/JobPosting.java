@@ -57,13 +57,18 @@ public class JobPosting extends BaseClass {
 			String name=driver.findElement(By.xpath("(//table//tbody//tr)[last()]/td[2]")).getText();
 			System.out.println(name);
 			if(name.equals("DineshKumar")) {
-				System.out.println("Reading Name");
+				System.out.println("Reading Name and Validating");
 				Thread.sleep(4000);
-				driver.findElement(By.xpath("(//table//tbody//tr)[last()]/td[5]/button[1]")).click();
-				System.out.println("Approave request");
-				Thread.sleep(4000);
-				GenericMethods.acceptAlert(driver);
-				Thread.sleep(4000);
+				String value = driver.findElement(By.xpath("(//table//tbody//tr)[last()]/td[4]")).getText();
+				System.out.println("Admin status is - "+value);
+				if(value.equalsIgnoreCase("Disabled")) {
+					driver.findElement(By.xpath("(//table//tbody//tr)[last()]/td[5]/button[1]")).click();
+					System.out.println("Approave request");
+					Thread.sleep(4000);
+					GenericMethods.acceptAlert(driver);
+					Thread.sleep(4000);	
+				}
+				System.out.println("Already Approaved Admin");
 				ExtentReportManager.test.log(Status.INFO, "Super Admin Succeessfully Appraove The New Admin");
 				driver.navigate().back();
 				Thread.sleep(4000);
